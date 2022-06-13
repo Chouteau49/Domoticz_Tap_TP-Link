@@ -30,9 +30,7 @@ Fill in the device email, password and IP values.
 
 ## Authors
 
-* **Guillaume Zin** - *Initial work* - [Domoticz_Tapo_TP-Link](https://github.com/Chouteau49/Domoticz_Tapo_TP-Link)
-
-See also the list of [contributors](https://github.com/Chouteau49/Domoticz_Tapo_TP-Linkcontributors) who participated in this project.
+* **Julien CHOUTEAU** - *Initial work* - [Domoticz_Tapo_TP-Link](https://github.com/Chouteau49/Domoticz_Tapo_TP-Link)
 
 ## License
 
