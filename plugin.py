@@ -71,6 +71,8 @@ class BasePlugin:
         self.tapo.login()  # Sends credentials to the plug and creates AES Key and IV for further methods
         Domoticz.Debug(f"Tapo {PRISE_P100} device info: {self.tapo.getDeviceInfo()}")
 
+        DumpConfigToLog()
+
     def onStop(self):
         Domoticz.Log("onStop called")
 
@@ -98,7 +100,7 @@ class BasePlugin:
             self.tapo.turnOn()
         else:
             self.tapo.turnOff()
-        self.update()
+        # self.update()
 
         return
 
