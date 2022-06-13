@@ -14,7 +14,6 @@
         <ul  style= "list-style-type:square " >
             <li> Prise P100 </li>
             <li> Prise P110 </li>
-            <!--<li> Ampoule L530 </li>>
         </ul>
     </description>
     <params>
@@ -25,7 +24,6 @@
             <options>
                 <option label="P100" value="P100" default="true"/>
                 <option label="P110" value="P110"/>
-                <!--<option label="L530" value="L530"/>>
             </options>
         </param>
         <param  field= "Mode2"  label= "Debug">
